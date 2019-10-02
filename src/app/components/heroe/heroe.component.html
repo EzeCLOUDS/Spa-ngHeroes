@@ -5,21 +5,21 @@
     <div class="col-md-4">
       <img [src]="heroe.img" class="img-fluid" [alt]="heroe.nombre">
       <br>
-      <a href="/heroes" class="btn btn-outline-danger btn-block"> </a>
+      <a href="/heroes" class="mt-3 btn btn-outline-danger btn-block"> Volver </a>
     </div>
     <div class="col-md-8">
       <h3 class="jumbotron-fluid text-center">{{heroe.nombre}}</h3>
       <hr>
       <p class="card-body text-primary">{{heroe.bio}}</p>
-      <div *ngIf="heroe.casa=marvel">
+      <!-- <div *ngIf="heroe.casa=marvel">
         <img src="assets/img/marvel.png" alt="marvel">
-      </div>
+      </div> -->
       <!-- <ng-container *ngIf="heroe.casa=marvel; else elseTemplate">
         <img src="assets/img/marvel.png" alt="marvel">
       </ng-container>
       <ng-template #elseTemplate>
         <img src="assets/img/DC.jpg" alt="marvel">
-      </ng-template> -->
+      </ng-template>     -->
       
 
     </div>
